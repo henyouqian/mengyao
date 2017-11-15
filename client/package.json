@@ -12,6 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "upload": "./tools/qiniu/qshell qupload 5 ./tools/qiniu/conf.json",
+    "bu": "yarn build; yarn upload; say 上传成功"
   }
 }

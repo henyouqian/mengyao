@@ -59,3 +59,6 @@ typings/
 
 mengyao.sublime-project
 mengyao.sublime-workspace
+client/build
+qrsboxcli
+qshell

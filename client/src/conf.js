@@ -10,5 +10,5 @@ export let conf = {
 	isLocal: _isLocal,
 	API_HOST: _isLocal
 		? "http://"+LOCAL_HOST+":20000"
-		: "http://rapapi.erdianzhang.com",
+		: "http://ajaxapi.erdianzhang.com",
 }

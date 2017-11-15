@@ -14,7 +14,7 @@ let _d = {
 	showResult: false,
 	results:[],
 	queryStr: `1211680，雪地靴女短筒，可爱
-1211680，哈哈哈`,
+1211680，长绒毛棉鞋女靴子`,
 }
 
 class App extends Component {
@@ -44,7 +44,7 @@ class App extends Component {
 		)
 
 		let resultsEls = _d.results.map((result, i)=>{
-			let rankEl = <span>获取中，</span>
+			let rankEl = <span>获取中</span>
 			if (result.complete) {
 				if (result.rank === 0) {
 					rankEl = <span>{"排名>"+ITEM_QUERY_NUM}</span>
