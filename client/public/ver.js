@@ -1,0 +1,1 @@
+window.ver = 1;
